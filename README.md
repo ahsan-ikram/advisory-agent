@@ -16,3 +16,4 @@ Brain Dump
 - Foundry Local (Microsoft)
 - NeMo Guardrails
 - MCP Servers
+- https://advisor.ahsanikram.com
