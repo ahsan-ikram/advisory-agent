@@ -1,5 +1,5 @@
 Technology Brain Dump
-- Kubernetes based deployment
+- RAG
 - Agent Development Kit (Google)
 - Ollama (Offline LLMS)
 - LangChain
@@ -8,4 +8,4 @@ Technology Brain Dump
 - Foundry Local (Microsoft)
 - NeMo Guardrails
 - MCP Servers
-- https://advisory.ahsanikram.com
+- Kubernetes based deployment https://advisory.ahsanikram.com
