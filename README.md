@@ -6,8 +6,14 @@ Why?
 - It should integrate with my personal website.
 - It will answer business queries on my behalf.
 
-# Execute on Local Machine
+#  Local Development
+### Run using Consolte
 
 cd advisosry-agent
 
-adk run src/advisor
+uv run adk run src/advisor
+
+### Run using UI
+
+cd src 
+adk web --port 8000
