@@ -1,0 +1,11 @@
+Technology Brain Dump
+- Kubernetes based deployment
+- Agent Development Kit (Google)
+- Ollama (Offline LLMS)
+- LangChain
+- DeepEval
+- gemni nano (Google)
+- Foundry Local (Microsoft)
+- NeMo Guardrails
+- MCP Servers
+- https://advisory.ahsanikram.com
