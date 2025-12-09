@@ -39,8 +39,3 @@ def crawl_website(url: str) -> str:
         driver.quit()
 
 
-if __name__ == "__main__":
-    # Test the crawl_website function
-    url = "https://www.linkedin.com/in/ahsanikr/"
-    content = crawl_website(url)
-    print(content[:50000])
