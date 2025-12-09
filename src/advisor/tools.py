@@ -17,7 +17,8 @@ def get_professional_experience() -> dict:
     try:
         return {
             "status": "success",
-            "service_offerings": crawl_website("https://www.linkedin.com/in/ahsanikr/"),
+            # Static LinkedIn profile hosted in Github public project to avoid using LinkedIn MCP server or API
+            "service_offerings": crawl_website("https://raw.githubusercontent.com/ahsan-ikram/ahsan-ikram/refs/heads/main/Static%20LinkedIn%20(Ahsan%20Ikram).html"),
         }
     except Exception as e:
         return {
