@@ -17,4 +17,4 @@ uv run adk run src/advisor
 
 cd src 
 
-adk web --port 8000
+uv run adk web --port 8000
