@@ -7,8 +7,10 @@ from selenium.webdriver.common.by import By
 import time
 
 
-def read_prompt(agent_name, prompt_filename: str) -> str:
-    prompt_file = Path(__file__).parent / f"{agent_name}" / "prompts" / f"{prompt_filename}.md"
+def read_prompt(agent_name: str, prompt_filename: str) -> str:
+    prompt_file = (
+        Path(__file__).parent / f"{agent_name}" / "prompts" / f"{prompt_filename}.md"
+    )
     return prompt_file.read_text()
 
 
@@ -35,3 +37,10 @@ def crawl_website(url: str) -> str:
         return body_text
     finally:
         driver.quit()
+
+
+if __name__ == "__main__":
+    # Test the crawl_website function
+    url = "https://www.linkedin.com/in/ahsanikr/"
+    content = crawl_website(url)
+    print(content[:50000])
