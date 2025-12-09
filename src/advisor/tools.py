@@ -14,8 +14,14 @@ def get_service_offerings() -> dict:
         }
 
 def get_professional_experience() -> dict:
-    return {
+    try:
+        return {
+            "status": "success",
+            "service_offerings": crawl_website("https://www.linkedin.com/in/ahsanikr/"),
+        }
+    except Exception as e:
+        return {
             "status": "error",
-            "error_message": f"The professional background is currently not available ",
+            "error_message": f"The professional background of Ahsan Ikram are currently not available {e}",
         }
         
