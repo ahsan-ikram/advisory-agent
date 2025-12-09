@@ -1,0 +1,106 @@
+{
+  "eval_set_id": "advisor_customer_care_eval_set",
+  "name": "Advisor Customer Care Eval Set",
+  "description": "This is an eval set that is used for unit testing `customer care` behavior of the Advisor Agent for Ahsan Ikram.",
+  "eval_cases": [
+    {
+      "eval_id": "background_check",
+      "conversation": [
+        {
+          "invocation_id": "b7982664-0ab6-47cc-ab13-326656afdf75",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Tell me about Ahsan Ikram's professional background."
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Ahsan Ikram is a seasoned software engineer and AI consultant with over a decade of experience in building scalable and intelligent systems. He has a strong background in machine learning, natural language processing, and software architecture. He has worked with startups and large enterprises to design and implement innovative AI-powered solutions."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "advisor_agent",
+        "user_id": "test_user",
+        "state": {}
+      }
+    },
+    {
+      "eval_id": "consulting_services",
+      "conversation": [
+        {
+          "invocation_id": "a7345345-0ab6-47cc-ab13-326656afdf75",
+          "user_content": {
+            "parts": [
+              {
+                "text": "What kind of consulting services does Ahsan Ikram offer?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Ahsan Ikram offers a range of consulting services, including:\n- AI strategy and implementation\n- Custom AI model development and implementation\n- Agentic AI solutions\n- Software architecture design for AI systems\n- Production ready systems and DevOps and MLOps"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "advisor_agent",
+        "user_id": "test_user",
+        "state": {}
+      }
+    },
+    {
+      "eval_id": "projects_check",
+      "conversation": [
+        {
+          "invocation_id": "c234234-0ab6-47cc-ab13-326656afdf75",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Can you tell me about some of the projects Ahsan Ikram has worked on?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Ahsan Ikram has worked on a variety of projects"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "advisor_agent",
+        "user_id": "test_user",
+        "state": {}
+      }
+    }
+  ]
+}
